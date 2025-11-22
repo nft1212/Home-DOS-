@@ -1,4 +1,4 @@
-```markdown
+```
 # 🖥️ HDOS - Handcrafted DOS-like Operating System
 
 [Русский](#русский) | [English](#english)
