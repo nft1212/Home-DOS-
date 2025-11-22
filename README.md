@@ -3,6 +3,7 @@
 EN/RU
 
 EN
+
 **stubs.asm** - stubs for unimplemented functions
 
 **101clock.asm** - real-time clock with blinking colon
@@ -30,8 +31,11 @@ EN
 **sh.asm** - command shell
 
 **snake.asm** - Snake game
+
 =======================================================
+
 RU
+
 **stubs.asm** - заглушки для нереализованных функций
 
 **101clock.asm** - часы реального времени с моргающим двоеточием
