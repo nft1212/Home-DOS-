@@ -1,0 +1,7 @@
+(How to assemble HDOS)
+1. nasm -f bin boot.asm -o boot.bin
+2. nasm -f bin kern.asm -o kern.bin
+3. 
+dd if=boot.bin of=hdos.img bs=512 count=1
+dd if=kern.bin of=hdos.img bs=512 seek=1 count=20
+dd if=/dev/zero of=hdos.img bs=512 seek=21 count=2859
